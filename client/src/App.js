@@ -17,10 +17,8 @@ const App = () => {
         <SavedList list={savedList} />
         <Route path="/" exact component={MovieList} />
         <Route path="/movies/:id" component={Movie} />
-
       </div>
-    
-  );
+    );
 };
 
 export default App;
